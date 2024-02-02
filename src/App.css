@@ -1,0 +1,916 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1250px;
+    margin: auto;
+}
+.container1
+{
+    width: 1140px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+/* ---------------------- topheader -------------------- */
+.kf_topline
+{
+    background-color: #0c1013;
+    color: white;
+    padding: 15px;
+}
+.time i,
+.location i
+{
+    color: #b99272;
+    margin-right: 4px;
+    font-size: 18px;
+}
+.time p,
+.location p
+{
+    color: #b99272;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.time span,
+.location span
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left:3px;
+}
+.top_icon i
+{
+    margin-left: 15px;
+}
+.kf_btmline
+{
+    background-color: #12171b;
+}
+.header
+{
+    padding: 20px 0px;
+}
+.logo img
+{
+    height: 40px;
+}
+.main_menu
+{
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 10px 0px;
+}
+.main_menu ul 
+{
+    list-style: none;
+}
+.kf_menu li
+{
+    position: relative;
+    padding-left: 25px;
+}
+.kf_menu li > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.kf_menu li i 
+{
+    color: white;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.sub_menu
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 15px;
+    padding: 15px 20px;
+    background-color: black;
+    width: 230px;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.sub_menu li >a
+{
+    color: gray;
+    margin-bottom: 15px;
+    line-height: 30px;
+    /* padding-bottom: 10px; */
+}
+.kf_menu li:hover .sub_menu
+{
+    opacity: 1;
+    visibility: visible;
+}
+.b_btn
+{
+    background-color: #b99272;
+    padding: 10px 32px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+}
+.b_btn > a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+/* -------------------------------- slider ------------------------- */
+.slider
+{
+    background-image: url('./image/s1.jpg');
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.s_desc
+{
+    color: white;
+    padding: 85px 0px;
+}
+.kf_line
+{
+    width: 27px;
+    height: 1px;
+    background-color: #b99272;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+.sub_title h4
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom:25px ;
+}
+.s_desc h1
+{
+        font-size: 120px;
+        font-weight: 500;
+        text-transform: capitalize;
+        width: 70%;
+        padding-bottom: 50px; 
+}
+.kf_btn > a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.explore,
+.get
+{
+    padding: 15px 32px;
+    background-color: #b99272;
+    font-size: 14px;
+    font-weight: 500;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    vertical-align: top;
+    transition: .5s;
+}
+.explore i,
+.get i
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 5px;
+    font-weight: 600;
+    transition: .5s;
+}
+.get
+{
+    background-color: #0c1013;
+}
+.explore:hover,
+.get:hover
+{
+    background-color: white;
+    color: #b99272;
+}
+/* ----------------------------- Organic ---------------------- */
+
+.about_organic
+{
+    background-color: #090c0f;
+}
+.about_us
+{
+    width: 100%;
+    display: flex;
+    padding: 100px 0px;
+}
+.organic
+{
+    color: white;
+    width: 50%;
+}
+.about_img
+{
+    width: 50%;
+}
+.about_img img
+{
+    width: 640px;
+    height: 544px;
+}
+.about_heading h6
+{
+    font-size: 16px;
+    color: #b99272;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+    font-weight: 500;
+}
+.about_heading h1
+{
+    font-size: 40px;
+    font-weight: 500;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.about_p p
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    width: 82%;
+    padding-bottom: 40px;
+}
+.about_quote
+{
+    background-color: #b99272;
+    padding: 20px 20px;
+    width: 82%;
+    border-radius: 5px;
+}
+.about_quote p
+{
+    width: 64%;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+/* -------------------- service ---------------------- */
+
+.service_item
+{
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.service1
+{
+    position: relative;
+}
+.kf_service_hv > a img
+{
+    width: 350px;
+    height: 270px;
+    object-fit: cover;
+    object-position: center;
+    opacity: .30;
+    overflow: hidden;
+}
+.desc
+{
+    position: absolute;
+    border: 1px solid rgba(199, 148, 86, 0.3);
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 50px 0px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .3s;
+}
+.desc:hover{
+    border: 1px solid #b99272;
+}
+.desc i
+{
+    font-size: 60px;
+    color: white;
+}
+.desc h5
+{
+    color: white;
+    font-size: 24px;
+}
+/* ---------------------------- kaffen popular ------------------------- */
+.popular
+{
+    background-image: url('./image/category_bg.jpg');
+    background-attachment: fixed;
+    padding-bottom: 120px;
+}
+.popular_head
+{
+  text-align: center;
+  padding-top: 130px;  
+  padding-bottom: 70px;
+}
+.popular_head h5
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b99272;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px 0px;
+}
+.popular_head h1
+{
+    font-size: 42px;
+    font-weight: 400;
+    color: white;
+}
+.popular_item 
+{
+    background-image: url('./image/menu_logo.png');
+    background-color: #090c0f;
+    padding: 35px 35px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+   
+}
+.items
+{
+  width: 100%;
+  padding: 30px 10px;
+}
+.item1
+{
+    width: 50%;
+}
+.p_image > a img
+{
+    width: 150px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.p_desc
+{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.p_desc h5
+{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.p_desc b 
+{
+    font-size: 19px; 
+    font-weight: 400;
+    color: gray;
+}
+.p_desc p
+{
+    color: #b99272;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.price
+{
+    color: #b99272;
+    padding-top: 15px;
+}
+.price h6
+{
+    font-size: 24px;
+    margin-left: 20px;
+}
+.p_border
+{
+    width: 130px;
+    border-bottom: 1px dashed #b99272;
+}
+/* --------------------------- New London ---------------------- */
+.nex_landon
+{
+    background-color: #090c0f;
+    padding-top: 80px;
+}
+.kr_parallax1
+{
+    position: relative;
+    left: -390px;
+    height: 160px;
+}
+.parallax_img
+{
+    background-image: url('./image/parallax_icon1.png');
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+/* .kr_parallax2
+{
+    position: relative;
+    left: auto;
+    right: -990px;
+    width:205px;
+    height: 106px;
+}
+
+.parallax_image
+{
+    background-image: url('./image/parallax_icon3.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+} */
+.parallax
+{
+    width: 100%;
+    display: flex;
+}
+.par_image
+{
+    width: 50%;
+}
+.par_img img
+{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    transform: translateY(-120px);
+    padding-left: 30px;
+}
+.parallax_tilte
+{
+    width: 50%;
+    color: aliceblue;
+    padding-left: 70px;
+    transform: translateY(-90px);
+
+}
+.par_heading h6
+{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b99272;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.par_heading h5
+{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.par_txt p 
+{
+    font-size: 16px;
+    color: gray;
+    width: 92%;
+    margin-bottom: 50px ;
+}
+.list1
+{
+    display: flex;
+    margin-bottom: 40px;
+}
+.list_icon img
+{
+    float: left;
+    width: 70px;
+    text-align: center;
+    margin-right: 30px;
+}
+.list_desc h5
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 10px;
+}
+.list_desc p
+{
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.list_btn
+{
+    padding-top: 30px;
+}
+/* ----------------------- kf-grid ------------------------ */
+.kf_grid
+{
+    background-color: #0c1013;
+    color: #b4b5b6;
+    padding: 130px 0px;
+}
+.grid_swap
+{
+    gap: 27px;
+}
+.grid_img img
+{
+    width: 362px;
+    height: 480px;
+    object-fit: cover;
+    overflow: hidden;
+    /* opacity: 1; */
+}
+
+.grid_item
+{
+    position: relative;
+}
+.grid_desc
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    vertical-align: middle;
+    padding: 180px 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 1px solid #b99272;
+    opacity: 0;
+    transition: .4s;
+}
+.grid_desc:hover
+{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.sec_grid
+{
+    transform: translateY(-50px);
+}
+/* --------------------- client say -------------------- */
+.say
+{
+     background-color: #090c0f;
+    background-image: url('./image/testimonials_bg2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 870px;
+    width: 100%;
+}
+.say_heading
+{
+    text-align: center;
+    padding-top: 120px;
+}
+.say_heading p 
+{
+    font-family: 16px;
+    color: #b99272;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.say_heading h4
+{
+    color: white;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.carousel
+{
+    width: 100%;
+}
+.client_one
+{
+    width: 22%;
+    margin-right: 30px;
+}
+.c_say
+{
+    background-color: #0e1317;
+}
+.say_img img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: -30px 90px 15px 90px;
+}
+.say_desc
+{
+    text-align: center;
+}
+.cc_icon
+{
+    color: #b99272;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.say_desc p
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    padding: 0px 20px;
+    text-align: center;
+    line-height: 1.75;
+}
+.say_desc h5
+{
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+    font-family: 600;
+}
+.say_desc h6
+{
+    font-size: 15px;
+    color: #b99272;
+    margin-top: 5px;
+    padding-bottom: 35px;
+}
+/* ---------------------------- kf number ---------------------- */
+
+.number
+{
+    background-color: #0e1317;
+    padding: 70px 0px;
+}
+
+.number_item
+{
+    width: 100%;
+}
+.num_item
+{
+    width: 33.33%;
+}
+.num .n_plus
+{
+    font-size: 55px;
+    color: #b99272;
+    font-weight: 400;
+}
+.num_desc
+{
+    margin-left: 15px;
+}
+.num_desc h5
+{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    margin: 10px 0px 7px 0px;
+}
+.num_desc p
+{
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/* ------------------- blog/news ------------------- */
+.blog_news{
+    text-align: center;
+    padding-top: 70px;
+}
+.blog_news p
+{
+    color: #b99272;
+    padding-bottom: 10px;
+}
+.blog_news h2
+{
+    color: white;
+    font-size: 42px;
+
+}
+.blog
+{
+    background-color: #090c0f;
+    padding: 70px 0px;
+}
+.my_bolg
+{
+    display: flex;
+}
+.news_img1 img
+{
+    width: 366px;
+    height: 415px;
+    object-fit: cover;
+    opacity: .40;
+    /* transform: scale(1); */
+    /* transition: .3s; */
+    /* overflow: hidden; */
+}
+.news_img1 img:hover
+{
+    /* transform: scale(1.05); */
+}
+.news_desc
+{
+    color: white;
+    padding: 0px 12px;
+    transform: translateY(-140px);
+}
+.news_desc h5
+{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.blog_icon
+{
+    color: #b4b5b6;
+    font-size: 18px;
+}
+.date
+{
+    margin-right: 20px;
+}
+.date i,
+.comment i
+{
+    margin-right: 7px;
+}
+.blog_btn
+{
+    padding-bottom: 50px;
+}
+.blog_btn > a
+{
+    text-decoration: none;
+}
+.blog1
+{
+    background-color: #b99272;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 27px;
+    margin-left: 490px;
+    transition: .3s;
+}
+.blog1:hover
+{
+    background-color: white;
+    color: #b99272;
+}
+/* ---------------------------------- booking ------------------------------------- */
+.booking
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./image/cta_bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.book_txt
+{
+    padding: 90px 0px;
+}
+.book_txt p
+{
+    color: #b99272;
+    font-size: 16px;
+}
+.book_txt h2
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;    
+}
+
+/* --------------------------- footer ------------------------ */
+.footer
+{
+    background-color: #090c0f;
+    color: white;
+}
+.footer_lines
+{
+    width: 100%;
+    padding: 70px 0px;
+}
+.ff_items
+{
+    width: 25%;
+}
+.footer_logo > a img
+{
+    width: 118px;
+    height: 40px;
+}
+.working ul li
+{
+    /* list-style: none; */
+}
+.working h2,
+.contact_us h2,
+.f_galler h2
+{
+    margin-bottom: 20px;
+}
+.hed
+{
+    margin-left: 25px;
+    padding-bottom: 15px;
+}
+.hed h5
+{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: white;
+}
+.hed p,
+.f_loc p,
+.f_email p,
+.f_phone p
+{
+    color: #b99272;
+}
+.working h6
+{
+    margin-left: 25px;
+    font-size: 17px;
+    color: #ff8a00;
+}
+.con
+{
+    padding-bottom: 15px;
+}
+.con i
+{
+    color: #b99272;
+    font-size: 28px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+.f_loc h5,
+.f_email h5,
+.f_phone h5
+{
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 7px;
+}
+.f_galler
+{
+    padding-left: 70px;
+}
+.fot_img img
+{
+    width: 84px;
+    height: 80px;
+    object-fit: cover;
+    padding: 5px;
+}
+.footer_bor {
+    text-align: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.4) ;
+}   
+.footer_bor p
+{
+    padding: 30px 0px;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 500;
+    font-size: 16px;
+}
